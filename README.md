@@ -1,4 +1,4 @@
-This repository provides Google Earth Engine (GEE)–based tutorials and workflows, covering a range of geospatial data processing and analysis techniques. It includes schema descriptions and practical implementations for:
+👉 This repository provides Google Earth Engine (GEE)–based tutorials and workflows, covering a range of geospatial data processing and analysis techniques. It includes schema descriptions and practical implementations for:
 
 1. Digital Elevation Models (DEM) collections
 
@@ -12,7 +12,7 @@ This repository provides Google Earth Engine (GEE)–based tutorials and workflo
 
 🌍 Research Project: NDWI-Based Water Change Detection (1994–2024)
 
-This project investigates long-term surface water dynamics using the Normalized Difference Water Index (NDWI) in GEE. It evaluates water extent changes over three decades, focusing on the years 1994, 2004, 2014, and 2024, to understand spatial and temporal variations in water coverage.
+This project investigates long-term surface water dynamics using the Normalized Difference Water Index (NDWI) and Normalized Difference Vegetation Index (NDVI)  in GEE. It evaluates water extent changes over three decades, focusing on the years 1994, 2004, 2014, and 2024, to understand spatial and temporal variations in water coverage.
 
 Source script: gee-scripts/historical_image_analysis4flood_change_detection.js
 
@@ -32,7 +32,7 @@ Export results in CSV/GeoTIFF format for integration with Python workflows.
 
 🛠️ Tools & Technologies
 
-Google Earth Engine (JavaScript API) → NDWI calculation & change detection
+Google Earth Engine (JavaScript API) → NDWI, NDVI calculation & change detection
 
 Python (Matplotlib, Plotly, Pandas) → Data visualization & research-ready charts
 
@@ -41,9 +41,10 @@ Landsat datasets (Landsat 5 and Landsat 8)
 📊 Research Applications
 
 Monitoring surface water distribution over time
+
 Assessing the impacts of climate change and land-use dynamics
+
 Supporting water resource management and coastal vulnerability assessments
-Supporting water governance and resource management.
 
 Providing reproducible methods for remote sensing-based environmental studies.
 
