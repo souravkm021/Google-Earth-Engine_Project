@@ -1,36 +1,48 @@
-🌍 NDWI-Based Water Change Detection (1994–2024)
+This repository provides Google Earth Engine (GEE)–based tutorials and workflows, covering a range of geospatial data processing and analysis techniques. It includes schema descriptions and practical implementations for:
 
-This project analyzes long-term surface water dynamics using the Normalized Difference Water Index (NDWI) in Google Earth Engine (GEE). It focuses on calculating water-covered areas, detecting spatio-temporal changes, and visualizing results in both maps and charts for research and decision-making purposes.
-Source: Historical_image_analysis4flood_change_detection.js
+1. Digital Elevation Models (DEM) collections
 
-✨ Features
+2. Geospatial indexing methods
 
-Compute NDWI from satellite imagery (Landsat series).
+3. Multispectral image collections
 
-Extract water-covered areas for selected years (1994, 2004, 2014, 2024).
+4. Image classification with machine learning (r/ML) and accuracy assessment
 
-Perform change detection analysis to identify water gained and lost areas.
+5. Research project on water resource assessments for coastal vulnerability analysis
 
-Calculate total water area (sq.km) for each year.
+🌍 Research Project: NDWI-Based Water Change Detection (1994–2024)
 
-Generate professional visualizations (maps, charts, and graphs).
+This project investigates long-term surface water dynamics using the Normalized Difference Water Index (NDWI) in GEE. It evaluates water extent changes over three decades, focusing on the years 1994, 2004, 2014, and 2024, to understand spatial and temporal variations in water coverage.
 
-Export results (CSV/GeoTIFF) for further analysis in Python.
+Source script: gee-scripts/historical_image_analysis4flood_change_detection.js
+
+✨ Key Features
+
+Compute NDWI from Landsat satellite imagery (Landsat 5 & 8).
+
+Extract water-covered areas for multiple years (1994, 2004, 2014, 2024).
+
+Perform change detection analysis to quantify water gained and lost areas.
+
+Calculate total water-covered area (km²) for each study year.
+
+Generate professional maps, charts, and graphs for research reporting.
+
+Export results in CSV/GeoTIFF format for integration with Python workflows.
 
 🛠️ Tools & Technologies
 
-Google Earth Engine (JavaScript API) → NDWI calculation & change detection.
+Google Earth Engine (JavaScript API) → NDWI calculation & change detection
 
-Python (Matplotlib, Plotly, Pandas) → Data visualization & research-ready charts.
+Python (Matplotlib, Plotly, Pandas) → Data visualization & research-ready charts
 
-Landsat datasets (Landsat 5 and 8).
+Landsat datasets (Landsat 5 and Landsat 8)
 
 📊 Research Applications
 
-Monitoring surface water distribution over time.
-
-Assessing the impact of climate change and land-use changes.
-
+Monitoring surface water distribution over time
+Assessing the impacts of climate change and land-use dynamics
+Supporting water resource management and coastal vulnerability assessments
 Supporting water governance and resource management.
 
 Providing reproducible methods for remote sensing-based environmental studies.
